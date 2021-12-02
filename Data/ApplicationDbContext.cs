@@ -28,6 +28,10 @@ namespace Doctors.Data
         }
 
         public DbSet<ChatUser> ProductVisits { get; set; }
+        public DbSet<Serduct> Serducts { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<SerductImage> SerductImages { get; set; }
+        public DbSet<ContactInfo> ContactInfos { get; set; }
 
 
         #region disable cascading delete in database
